@@ -198,7 +198,17 @@
       <!-- digunakan ketika menggunakan form -->
       <input type="submit" value="Simpan"/>
       <input type="reset"value="Reset Input"/>
-    </form>
+    </form><br><br><br>
+
+    <!-- atribut value memberikan nilai/isian lgsg pada element input, ketika kita tulis sesuatu maka tidak akan hilang karena berupa value-->
+    <!-- atribut placeholder hanya menerangkan apa yang harusnya diisi, ketika ditulis maka akan hilang place holdernya(bukan sebuah nilai) -->
+    <!-- atribut readonly secara visual/tampilan sama persis seperti sebelumnya namun tidak dapat di edit -->
+    <input type="text" value="Dewi Testing" readonly/ id="id_peserta_depan" class="inputName">
+    <!-- atribut disables memiliki fungsi yg sama dengan readonly namun yang membedakan, ia menginformasikan bahwa element yg ditulis ini di nonaktifkan -->
+    <input type="text" value="Dewi Testing 2" disabled id="id_peserta_belakang" class="inputName">
+    <!-- atribut id dan class digunakan ketika menggunakan css -->
+    <!-- id itu unik, tidak boleh sama. namun class boleh sama -->
+    <!-- <input type="text" placeholder="Nama Lengkap"/> -->
 
   </body>
 </html>
