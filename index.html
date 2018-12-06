@@ -118,7 +118,7 @@
     <input type="week"><br> -->
 
     <!-- element form -->
-    <form>
+    <!-- <form>
       <input type="text"><br>
       <input type="password"><br>
       <input type="radio"><br>
@@ -129,8 +129,56 @@
       <input type="email"><br>
       <input type="reset"><br>
       <input type="submit"><br>
-    </form>
+    </form> -->
 
+    <!-- element Fieldset dan Legend dalam element form -->
+    <!-- element fieldset untuk melakukan grouping form -->
+    <!-- element legend untuk membuat judul dari form -->
+    <form>
+      <fieldset>
+        <legend>Input Registration Form : </legend>
+        <input type="text"><br>
+        <input type="text">
+      </fieldset>
+    </form>
+    <br>
+
+    <!-- element select option untuk membuat drop down list -->
+    <!-- element optgroup untuk grouping secara terpisah -->
+    <!-- atribut label pada optgroup untuk memberi nama grouping -->
+    <select>
+      <optgroup label="Warna Primer">
+        <option>Merah</option>
+        <option>Kuning</option>
+        <option>Biru</option>
+      </optgroup>
+      <optgroup label="Warna Sekunder">
+        <option>Oranye</option>
+        <option>Hijau</option>
+        <option>Ungu</option>
+      </optgroup>
+      <optgroup label="Warna Tersier">
+        <option>Cokelat Kemerahan</option>
+        <option>Cokelat Kekuningan</option>
+        <option>Cokelat Kebiruan</option>
+      </optgroup>
+    </select>
+    <br><br>
+
+    <!-- element datalist untuk memberikan rekomendasi dari input yg kita masukan-->
+    <!-- atribut list harus sama dgn id di datalist-->
+    <input type="text" list="isidatalist">
+    <datalist id="isidatalist">
+      <option>Merah</option>
+      <option>Kuning</option>
+      <option>Biru</option>
+      <option>Oranye</option>
+      <option>Hijau</option>
+      <option>Ungu</option>
+      <option>Cokelat Kemerahan</option>
+      <option>Cokelat Kekuningan</option>
+      <option>Cokelat Kebiruan</option>
+    </datalist><br>
 
   </body>
 </html>
