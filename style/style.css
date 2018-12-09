@@ -1,25 +1,28 @@
 /* cara menghubungkan css dan html dengan cara eksternal */
 h1{
-  background-color: pink;
-  color : grey;
+  background-color: #e91e63;
 }
 /* selector berdasarkan nama element */
 h4{
-  background-color: #80cbc4;
-  color : white;
+  background-color: #f48fb1;
 }
 /* selector berdasarkan id */
 #judul{
-  background-color: #cddc39;
-  color : black;
+  background-color: #f8bbd0;
 }
 /* selector berdasarkan class */
 .belajar{
-  background-color: #ff9800;
-  color: white;
+  background-color: #fce4ec;
 }
 /* selector dengan beberapa element */
 h6.bel, p{
-  background-color: #ff5722;
-  color: white;
+  background-color: #ffebee;
+}
+
+/* didalam selector berdasarkan id yaitu warna ini, COLOR adalah PROPERTY dan purple adalah valuenya */
+#warna{
+  color: purple;
+}
+h3{
+  color: #ab47bc;
 }
