@@ -3,3 +3,23 @@ h1{
   background-color: pink;
   color : grey;
 }
+/* selector berdasarkan nama element */
+h4{
+  background-color: #80cbc4;
+  color : white;
+}
+/* selector berdasarkan id */
+#judul{
+  background-color: #cddc39;
+  color : black;
+}
+/* selector berdasarkan class */
+.belajar{
+  background-color: #ff9800;
+  color: white;
+}
+/* selector dengan beberapa element */
+h6.bel, p{
+  background-color: #ff5722;
+  color: white;
+}
