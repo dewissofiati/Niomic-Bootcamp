@@ -26,3 +26,17 @@ h6.bel, p{
 h3{
   color: #ab47bc;
 }
+
+/* background color-image-position-repeat */
+.back{
+  background-color: #ba68c8;
+}
+
+body{
+  /* background-image: url("/img/galaxy.jpeg");
+  background-repeat: no-repeat;
+  background-position: center top; */
+
+  /* menulis 1 baris */
+  background: #ea80fc url("/img/galaxy.jpeg") no-repeat center top;
+}
